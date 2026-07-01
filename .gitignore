@@ -1,0 +1,15 @@
+# Ignore dependency folders globally
+**/node_modules/
+
+# Ignore environment variables and secrets
+**/.env
+**/.env.local
+**/.env.production
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
+
+# Ignore local temporary uploads in your backend
+01backend/public/temp/*
+!01backend/public/temp/.gitkeep
