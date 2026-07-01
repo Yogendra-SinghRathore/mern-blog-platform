@@ -19,7 +19,7 @@ import Profile from './pages/Profile.jsx';
 import NotFound from './pages/NotFound.jsx';
 import PostDetail from './pages/PostDetail.jsx';
 import MyPosts from './pages/MyPosts.jsx';
-import AddPost from './pages/addPost.jsx';
+import AddPost from './pages/AddPost.jsx';
 
 const router = createBrowserRouter([
 
