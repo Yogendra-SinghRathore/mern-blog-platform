@@ -34,7 +34,7 @@ function Dashboard() {
 
     return () => clearTimeout(timer);
 
-  },[search])
+  }, [search])
 
 
 
@@ -62,7 +62,10 @@ function Dashboard() {
 
   if (loading) {
     return (
-      <Loader />
+      <>
+        <Loader />
+        <h4 className="dashboardLoadingText">First Loading May Take Time, Please wait for a while...  </h4>
+      </>
     )
   }
 
