@@ -911,6 +911,10 @@ h1.loading {
 .dashboardLoadingText {
   text-align: center;
 }
+.linkBox{
+  display: flex; flex-direction: column;
+  text-decoration: underline;
+}
 
 
 

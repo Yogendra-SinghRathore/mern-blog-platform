@@ -62,7 +62,7 @@ function Login() {
             <button type="submit" className=" btn btn-primary" disabled={loading}>{loading ? "Logging In..." : "Login"}</button>
           </form>
           <div className="linkBox">
-            <Link to={"/forgot-password"}>Forgot password</Link>
+            <Link to={"/forgot-password"}>Forgot password</Link> 
             <Link to={"/register"}>Don't have an account?
               Register</Link>
           </div>

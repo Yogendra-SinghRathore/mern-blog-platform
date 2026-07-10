@@ -7,11 +7,14 @@ import Loader from "./components/Loader";
 
 function App() {
 
-  const { loading } = useContext(AuthContext);
+  const {loading} = useContext(AuthContext);
 
   return (
 
-    loading ? (<Loader />) : (<div className="mainContainer">
+    loading ? (<>
+      <Loader />
+      <h4 className="dashboardLoadingText">First Loading May Take Time, Please wait for a while...  </h4>
+    </>) : (<div className="mainContainer">
       <Navbar />
       <main>
         <Outlet />

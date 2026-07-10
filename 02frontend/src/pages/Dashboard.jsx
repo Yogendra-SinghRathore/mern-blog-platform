@@ -64,7 +64,6 @@ function Dashboard() {
     return (
       <>
         <Loader />
-        <h4 className="dashboardLoadingText">First Loading May Take Time, Please wait for a while...  </h4>
       </>
     )
   }
