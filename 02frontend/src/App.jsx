@@ -4,10 +4,11 @@ import Navbar from "./components/Navbar"
 import { useContext } from "react";
 import AuthContext from "./context/AuthContext";
 import Loader from "./components/Loader";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 function App() {
 
-  const {loading} = useContext(AuthContext);
+  const { loading } = useContext(AuthContext);
 
   return (
 
@@ -17,7 +18,9 @@ function App() {
     </>) : (<div className="mainContainer">
       <Navbar />
       <main>
-        <Outlet />
+        <ErrorBoundary>
+          <Outlet />
+        </ErrorBoundary>
       </main>
       <Footer />
     </div>)
