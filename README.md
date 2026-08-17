@@ -2,7 +2,7 @@
 
 A production-style full-stack blogging platform built to go deep on backend architecture — secure auth, scalable API design, and clean error handling — beyond typical tutorial-level implementations.
 
-🔗 **[Live Demo](#)** &nbsp;|&nbsp; **[GitHub](https://github.com/Yogendra-SinghRathore/mern-blog-platform)**
+🔗 **[Live Demo](https://mern-blog-platform-frontend-alpha.vercel.app/)** &nbsp;|&nbsp; **[GitHub](https://github.com/Yogendra-SinghRathore/mern-blog-platform)**
 
 ---
 
